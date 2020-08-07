@@ -35,12 +35,10 @@ function Products() {
               <Link href='/products/[productId]' as={`/products/${prod.id}`}>
                 <img src={prod.imageUrl} alt={prod.description} className={styles.imgproducts}/>
               </Link>
-              <h3>{prod.description}</h3>
-              <h4>{prod.price}.฿</h4>
-              <button>Add to Cart</button>
-              <img src="/Icon simple-react.png" className={styles.imgproductsicon} />
-              <img src="/Icon simple-next-js.png" className={styles.imgproductsicon}/>
-              <img src="/node-js.png" className={styles.imgproductsicon} />
+              <h4>{prod.description}</h4>
+              <h5>{prod.price}.฿</h5>
+              <button className={styles.btnb}><h5> Add to Cart</h5> </button>
+              
             </a>
           ))}
         </div>

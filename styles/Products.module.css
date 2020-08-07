@@ -1,0 +1,70 @@
+.products{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 100%;
+    margin-top: 100px;    
+    margin-bottom: 100px;
+
+}
+.products p{
+    margin: 0px 0px 0px 100px;
+    font-family: myriad pro regular;
+    font-size: 30px;
+    line-height: 30px;
+    color:  #000;
+}
+.imgproducts{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 10em;
+    width: 15em;
+}
+.imgproductsicon{
+    margin: 4px
+}
+
+.grid {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    color:  #070725;
+    max-width: 100%;
+    margin-top: 3rem;
+  }
+  
+  .card {
+    background: #ffffff;
+    margin: 1rem;
+    flex-basis: 30%;
+    padding: 1.5rem;
+    text-align: left;
+    color: inherit;
+    text-decoration: none;
+    border: 1px solid #eaeaea;
+    border-radius: 10px;
+    transition: color 0.15s ease, border-color 0.15s ease;
+  }
+  
+  .card:hover,
+  .card:focus,
+  .card:active {
+    border-color: rgb(49, 218, 255);
+    color: rgb(49, 218, 255);
+    fill: rgb(49, 218, 255);
+    box-shadow: rgb(49, 218, 255) 0px 0px 20px 0px;
+              
+  }
+  .card h3 {
+      margin: 0 0 1rem 0;
+      font-size: 1.5rem;
+    }
+  
+    .card p {
+      margin: 0;
+      font-size: 1.25rem;
+      line-height: 1.5;
+    }
